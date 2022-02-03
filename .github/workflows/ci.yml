@@ -1,0 +1,27 @@
+name: ci
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    lint:
+        name: linting
+
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout repository
+              uses: actions/checkout@v2
+              
+            - name: setup node
+              uses: actions/setup-node@v2
+
+            - name: install packages
+              run: npm install
+            
+            - name: linting
+              run: npx eslint ./
+
+ 
