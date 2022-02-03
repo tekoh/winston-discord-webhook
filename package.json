@@ -1,0 +1,29 @@
+{
+  "name": "winston-discord-webhook",
+  "version": "0.1.0",
+  "description": "Transport for winston to send logs on Discord via Webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekoh/winston-discord-webhook.git"
+  },
+  "keywords": [
+    "winston",
+    "discord",
+    "webhook",
+    "transport"
+  ],
+  "author": "tekoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tekoh/winston-discord-webhook/issues"
+  },
+  "homepage": "https://github.com/tekoh/winston-discord-webhook#readme",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "winston-transport": "^4.4.2"
+  }
+}
