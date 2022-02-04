@@ -4,7 +4,6 @@
   "description": "Transport for winston to send logs on Discord via Webhook",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "format": "prettier --write ."
   },
   "repository": {
@@ -30,7 +29,6 @@
   },
   "devDependencies": {
     "eslint": "^8.8.0",
-    "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "winston": "^3.5.1"
   }
