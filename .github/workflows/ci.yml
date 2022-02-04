@@ -23,3 +23,13 @@ jobs:
             
             - name: linting
               run: npx eslint ./
+    
+    publish:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+        - run: npm install
+        - uses: JS-DevTools/npm-publish@v1
+          with:
+            token: ${{ secrets.NPM_TOKEN }}
