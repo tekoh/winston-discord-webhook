@@ -9,3 +9,4 @@ test/
 *.md
 LICENSE
 node_modules/
+.env

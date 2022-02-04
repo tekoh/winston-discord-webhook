@@ -25,6 +25,7 @@
   "homepage": "https://github.com/tekoh/winston-discord-webhook#readme",
   "dependencies": {
     "discord-webhook-node": "^1.1.8",
+    "dotenv": "^16.0.0",
     "winston-transport": "^4.4.2"
   },
   "devDependencies": {
