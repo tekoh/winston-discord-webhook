@@ -13,7 +13,7 @@
 
 ### Options
 
-| option         | required | type      | default | description                                                     |
+| option         | required | type      | default | description                                               |
 | -------------- | -------- | --------- | ------- | --------------------------------------------------------- |
 | `webhook`      | yes      | `string`  | `null`  | The webhook URL given by discord                          |
 | `useCodeBlock` | no       | `boolean` | `false` | Should the log be automatically converted to a codeblock? |
