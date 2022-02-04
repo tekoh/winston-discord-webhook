@@ -3,7 +3,7 @@ const { Webhook } = require("discord-webhook-node")
 
 module.exports = class DiscordTransport extends Transport {
     /**
-     * 
+     *
      * @param {Object} opts Options for Discord Transport
      * @param {string} opts.webhook Webhook URL to send logs to
      * @param {boolean} opts.useCodeblock Should each message be automatically formatted into a code block? Default: false
@@ -59,7 +59,6 @@ module.exports = class DiscordTransport extends Transport {
             } else {
                 this.queue.push(info[Symbol.for("message")])
             }
-
         })
 
         callback()
