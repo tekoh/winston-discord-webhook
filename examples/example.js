@@ -8,6 +8,6 @@ module.exports = winston.createLogger({
         new DiscordTransport({
             webhook: process.env.LOGS_WEBHOOK,
             useCodeblock: true,
-        })
-    ]
+        }),
+    ],
 })
