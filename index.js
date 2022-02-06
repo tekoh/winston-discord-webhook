@@ -55,7 +55,7 @@ module.exports = class DiscordTransport extends Transport {
             this.emit("logged", info)
 
             if (this.useCodeblock) {
-                this.queue.push(`\`\`\`ansi\n${info[Symbol.for("message")]}\n\`\`\``)
+                this.queue.push(`\`\`\`ansi\n${info[Symbol.for("message")]}\`\`\``)
             } else {
                 this.queue.push(info[Symbol.for("message")])
             }
