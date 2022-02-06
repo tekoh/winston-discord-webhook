@@ -1,7 +1,7 @@
 # Winston Discord Webhook 🍇
 
 <p align="center">
-  <a href="https://nodei.co/npm/winston-discord-webhook/"><img src="https://nodei.co/npm/winston-discord-webhook.png?compact=true"></a><br>
+  <a href="https://www.npmjs.com/package/winston-discord-webhook"><img src="https://nodei.co/npm/winston-discord-webhook.png?compact=true"></a><br>
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/codeql-analysis.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/codeql-analysis.yml/badge.svg"></a>
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/prettier.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/prettier.yml/badge.svg"></a>
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/ci.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/ci.yml/badge.svg"></a>
