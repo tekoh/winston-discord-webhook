@@ -5,6 +5,8 @@
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/codeql-analysis.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/codeql-analysis.yml/badge.svg"></a>
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/prettier.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/prettier.yml/badge.svg"></a>
   <a href="https://github.com/tekoh/winston-discord-webhook/actions/workflows/ci.yml"><img src="https://github.com/tekoh/winston-discord-webhook/actions/workflows/ci.yml/badge.svg"></a>
+  <br>
+  <a href="https://ko-fi.com/U7U4AEDXM"><img src = "https://ko-fi.com/img/githubbutton_sm.svg"></a>
 </p>
 
 ![example code](https://i.imgur.com/XYajivW.png)
