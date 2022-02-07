@@ -25,6 +25,7 @@ jobs:
               run: npx eslint ./
     
     publish:
+      if: github.ref == 'refs/heads/main'
       name: publish
 
       needs: lint
