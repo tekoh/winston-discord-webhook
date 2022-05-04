@@ -10,4 +10,6 @@ declare module "winston-discord-webhook" {
         constructor(opts: options)
         log(info: any, callback: () => void): any
     }
+
+    export = DiscordTransport
 }
