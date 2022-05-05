@@ -11,7 +11,7 @@ declare namespace DiscordTransport {
 
 declare class DiscordTransport extends TransportStream {
     options: DiscordTransport.DiscordTransportOptions
-    
+
     constructor(options: DiscordTransport.DiscordTransportOptions)
 }
 
