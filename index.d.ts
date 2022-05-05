@@ -1,15 +1,18 @@
-declare module "winston-discord-webhook" {
-    interface options {
+import TransportStream = require("winston-transport")
+
+declare namespace DiscordTransport {
+    interface DiscordTransportOptions extends TransportStream.TransportStreamOptions {
         webhook: string
         useCodeBlock?: boolean
         interval?: number
         maxLength?: number
     }
-
-    class DiscordTransport {
-        constructor(opts: options)
-        log(info: any, callback: () => void): any
-    }
-
-    export = DiscordTransport
 }
+
+declare class DiscordTransport extends TransportStream {
+    options: DiscordTransport.DiscordTransportOptions
+    
+    constructor(options: DiscordTransport.DiscordTransportOptions)
+}
+
+export = DiscordTransport
