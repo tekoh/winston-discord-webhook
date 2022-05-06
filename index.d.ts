@@ -3,7 +3,7 @@ import TransportStream = require("winston-transport")
 declare namespace DiscordTransport {
     interface DiscordTransportOptions extends TransportStream.TransportStreamOptions {
         webhook: string
-        useCodeBlock?: boolean
+        useCodeblock?: boolean
         interval?: number
         maxLength?: number
     }
