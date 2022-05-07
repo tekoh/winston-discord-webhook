@@ -18,6 +18,6 @@
 | option         | required | type      | default | description                                               |
 | -------------- | -------- | --------- | ------- | --------------------------------------------------------- |
 | `webhook`      | yes      | `string`  | `null`  | The webhook URL given by discord                          |
-| `useCodeBlock` | no       | `boolean` | `false` | Should the log be automatically converted to a codeblock? |
+| `useCodeblock` | no       | `boolean` | `false` | Should the log be automatically converted to a codeblock? |
 | `interval`     | no       | `integer` | `2500`  | Time in milliseconds to send log queue to webhook         |
 | `maxLength`    | no       | `integer` | `1500`  | Maximum length before chopping end off of string          |
